@@ -1,0 +1,142 @@
+{
+	"geode": "5.10.1",
+	"gd": {
+		"win": "2.2081"
+	},
+	"id": "practicerun.tracked-practice",
+	"name": "Practice Run",
+	"version": "v1.4.0",
+	"developer": "ifeud",
+	"description": "Practice mode with a memory. A purple button in the pause menu restarts the level in practice mode and counts your deaths - a run finished without dying is saved as a normal completion. Also adds 16 performance options for slower PCs, with an automatic mode and a one-click preset.",
+	"links": {
+		"community": "https://discord.gg/PDUu5ENwQu",
+		"source": "https://github.com/ifeud/practice-run"
+	},
+	"resources": {
+		"spritesheets": {
+			"practice-run-icons": [
+				"resources/*.png"
+			]
+		}
+	},
+	"settings": {
+		"perf-auto-fps": {
+			"name": "Auto performance",
+			"description": "Watches your fps and tunes the rest by itself",
+			"type": "bool",
+			"default": false
+		},
+		"perf-hide-particles": {
+			"name": "No particles",
+			"description": "Removes sparks, dust, fire and glitter",
+			"type": "bool",
+			"default": false
+		},
+		"perf-half-particles": {
+			"name": "Half-rate particles",
+			"description": "Effects update every other frame",
+			"type": "bool",
+			"default": false
+		},
+		"perf-half-bursts": {
+			"name": "Half-size bursts",
+			"description": "Effects spawn half as many particles",
+			"type": "bool",
+			"default": false
+		},
+		"perf-effect-cap": {
+			"name": "Fewer effects",
+			"description": "Halves the game's limit on live effects",
+			"type": "bool",
+			"default": false
+		},
+		"perf-freeze-offscreen": {
+			"name": "Freeze off-screen",
+			"description": "Effects off screen stop being updated",
+			"type": "bool",
+			"default": false
+		},
+		"perf-hide-trail": {
+			"name": "No player trail",
+			"description": "Removes the streak behind ship and wave",
+			"type": "bool",
+			"default": false
+		},
+		"perf-no-object-glow": {
+			"name": "No object glow",
+			"description": "Removes the glow around glowing objects",
+			"type": "bool",
+			"default": false
+		},
+		"perf-hide-shaders": {
+			"name": "No screen shaders",
+			"description": "Removes shockwave, blur and pixelate",
+			"type": "bool",
+			"default": false
+		},
+		"perf-hide-glow": {
+			"name": "No player glow",
+			"description": "Removes the glow around both player icons",
+			"type": "bool",
+			"default": false
+		},
+		"perf-low-detail": {
+			"name": "Force low detail",
+			"description": "Skips detail-only objects (level LDM)",
+			"type": "bool",
+			"default": false
+		},
+		"perf-no-shake": {
+			"name": "No screen shake",
+			"description": "Removes the pause and death screen shake",
+			"type": "bool",
+			"default": false
+		},
+		"perf-hide-ground": {
+			"name": "Hide ground",
+			"description": "Hides the ground and the middle-ground",
+			"type": "bool",
+			"default": false
+		},
+		"perf-hide-background": {
+			"name": "Hide background",
+			"description": "Hides the level's background image",
+			"type": "bool",
+			"default": false
+		},
+		"perf-no-death-effect": {
+			"name": "No death effect",
+			"description": "Hides the explosion when you die",
+			"type": "bool",
+			"default": false
+		},
+		"perf-hide-portals": {
+			"name": "Hide portals",
+			"description": "Portals still work but become invisible",
+			"type": "bool",
+			"default": false
+		},
+		"show-pause-button": {
+			"name": "Show pause menu button",
+			"description": "Shows the practice and performance buttons in the pause menu",
+			"type": "bool",
+			"default": true
+		},
+		"show-run-label": {
+			"name": "Show run label",
+			"description": "Shows the death counter while a run is active",
+			"type": "bool",
+			"default": true
+		},
+		"enable-by-default": {
+			"name": "Enable by default",
+			"description": "Starts a tracked run on every level you enter",
+			"type": "bool",
+			"default": false
+		}
+	},
+	"tags": [
+		"gameplay",
+		"performance"
+	]
+}
